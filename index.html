@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>E Assist — Get things done without leaving your day</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <div class="logo">E<span>·</span>Assist</div>
+    <nav class="nav-links">
+      <a href="#how">How it works</a>
+      <a href="#business">For business</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <a href="#waitlist" class="btn btn-primary">Join the waitlist</a>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="hero-kicker">Launching first in Lekki, Victoria Island &amp; Ikoyi</div>
+      <h1>Get things done without leaving your day.</h1>
+      <p class="lead">E Assist connects busy people in Lagos with someone nearby who'll run the errand, pick up the document, or handle the task — while you keep working.</p>
+
+      <form class="waitlist-form" id="hero-form">
+        <div class="role-toggle">
+          <label><input type="radio" name="hero-role" value="customer" checked><span>I need things done</span></label>
+          <label><input type="radio" name="hero-role" value="assistant"><span>I want to earn</span></label>
+        </div>
+        <div class="email-row">
+          <input type="email" placeholder="you@email.com" required>
+          <button type="submit" class="btn btn-primary">Join waitlist</button>
+        </div>
+        <div class="form-micro">No spam — one email when we launch in your area.</div>
+      </form>
+      <div class="form-success" id="hero-success">You're on the list — we'll email you the moment E Assist opens in your area.</div>
+    </div>
+
+    <div class="ticket-stack">
+      <div class="ticket glow">
+        <div class="ticket-top"><span class="ticket-title">Pick up signed contract, VI → Ikoyi</span><span class="ticket-budget">₦4,500</span></div>
+        <div class="ticket-status">Posted 2 minutes ago</div>
+      </div>
+      <div class="ticket">
+        <div class="ticket-top"><span class="ticket-title">Pick up signed contract, VI → Ikoyi</span><span class="ticket-budget">₦4,500</span></div>
+        <div class="ticket-status">Accepted by Tobi O.</div>
+      </div>
+      <div class="ticket">
+        <div class="ticket-top"><span class="ticket-title">Pick up signed contract, VI → Ikoyi</span><span class="ticket-budget">₦4,500</span></div>
+        <div class="ticket-status">Completed — payment released</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="value">
+  <div class="wrap">
+    <blockquote>Your time is valuable. Let someone else handle the task.</blockquote>
+    <div class="value-list">
+      <div>A document that needs picking up across town.</div>
+      <div>A queue at the bank you don't have time to stand in.</div>
+      <div>A dozen small errands piling up before Friday.</div>
+    </div>
+  </div>
+</section>
+
+<section id="how">
+  <div class="wrap">
+    <h2>How it works</h2>
+    <div class="how-grid">
+      <div class="how-col">
+        <h3>If you need things done</h3>
+        <div class="step"><span class="step-num">1</span><div class="step-text"><b>Post the task</b><span>Say what you need, set a budget and a deadline.</span></div></div>
+        <div class="step"><span class="step-num">2</span><div class="step-text"><b>A nearby assistant accepts</b><span>Your budget is held safely until the task is done.</span></div></div>
+        <div class="step"><span class="step-num">3</span><div class="step-text"><b>Confirm and it's paid</b><span>Review the completed task, then release payment.</span></div></div>
+      </div>
+      <div class="how-col">
+        <h3>If you want to earn</h3>
+        <div class="step"><span class="step-num">1</span><div class="step-text"><b>Browse open tasks nearby</b><span>See what's available, the budget, and the deadline.</span></div></div>
+        <div class="step"><span class="step-num">2</span><div class="step-text"><b>Accept and complete it</b><span>Message the customer directly if you need details.</span></div></div>
+        <div class="step"><span class="step-num">3</span><div class="step-text"><b>Get paid to your wallet</b><span>Withdraw to your bank account whenever you like.</span></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="value" style="padding-top:72px; padding-bottom:72px;">
+  <div class="wrap">
+    <h2 style="font-size:26px; margin-bottom:8px;">Built so no one has to take it on faith</h2>
+    <div class="trust-row">
+      <div class="trust-item">
+        <h3>Identity verified</h3>
+        <p>Every assistant submits a government ID and a selfie before they can accept a task.</p>
+      </div>
+      <div class="trust-item">
+        <h3>Payment held in escrow</h3>
+        <p>Your money is set aside the moment you post — only released once you confirm the task is done.</p>
+      </div>
+      <div class="trust-item">
+        <h3>Rated by the community</h3>
+        <p>Every completed task gets a rating, visible to you before you ever accept one.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="business" id="business">
+  <div class="wrap">
+    <h2>Built for corporate errands too</h2>
+    <p class="lead">Give your office an on-demand runner for the things that eat up an employee's afternoon — document drop-offs, supply runs, registrar visits — without adding headcount.</p>
+    <div class="quote-row">
+      <div class="quote-line">"Submit our CAC documents at the Alausa registry."</div>
+      <div class="quote-line">"Pick up a signed contract from a client in Victoria Island."</div>
+      <div class="quote-line">"Buy 20 branded envelopes before 5pm."</div>
+    </div>
+  </div>
+</section>
+
+<section class="final-cta" id="waitlist">
+  <div class="wrap">
+    <h2>Be first in line when we launch.</h2>
+    <form class="waitlist-form" id="cta-form">
+      <div class="role-toggle">
+        <label><input type="radio" name="cta-role" value="customer" checked><span>I need things done</span></label>
+        <label><input type="radio" name="cta-role" value="assistant"><span>I want to earn</span></label>
+      </div>
+      <div class="email-row">
+        <input type="email" placeholder="you@email.com" required>
+        <button type="submit" class="btn btn-dark">Join waitlist</button>
+      </div>
+      <div class="form-micro">First access goes to Lekki, Victoria Island and Ikoyi.</div>
+    </form>
+    <div class="form-success" id="cta-success">You're on the list — we'll email you the moment E Assist opens in your area.</div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="wrap" style="max-width:760px;">
+    <h2 style="margin-bottom:8px;">Questions</h2>
+    <div class="faq-item">
+      <details>
+        <summary>When are you launching?</summary>
+        <p>First in Lekki, Victoria Island and Ikoyi, with more of Lagos to follow shortly after.</p>
+      </details>
+    </div>
+    <div class="faq-item">
+      <details>
+        <summary>How much does it cost?</summary>
+        <p>You set your own task budget. E Assist takes a small platform fee from the assistant's side — there's no extra charge added on top of what you post.</p>
+      </details>
+    </div>
+    <div class="faq-item">
+      <details>
+        <summary>Is my money safe?</summary>
+        <p>Yes. Payment is held in escrow and only released once you confirm the task is complete, or resolved by our team if there's a dispute.</p>
+      </details>
+    </div>
+    <div class="faq-item">
+      <details>
+        <summary>Can I do this part-time?</summary>
+        <p>Yes — as an assistant, you choose which tasks to accept and when. There's no schedule to commit to.</p>
+      </details>
+    </div>
+    <div class="faq-item">
+      <details>
+        <summary>Do I need to be verified to post a task?</summary>
+        <p>No. Verification is required to complete tasks as an assistant, not to post one as a customer.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap footer-grid">
+    <div>
+      <div class="logo">E<span>·</span>Assist</div>
+      <div class="footer-tag">Get things done without leaving your day. Lagos, Nigeria.</div>
+    </div>
+    <div class="footer-links">
+      <a href="#how">How it works</a>
+      <a href="#business">For business</a>
+      <a href="#faq">FAQ</a>
+      <a href="#waitlist">Join waitlist</a>
+    </div>
+  </div>
+  <div class="wrap footer-copy">© 2026 E Assist. All rights reserved.</div>
+</footer>
+
+<script src="script.js" defer></script>
+</body>
+</html>
